@@ -1,0 +1,191 @@
+/* se importa para el uso de icon de boostrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* se cambia de forma general y se cambia el tipo de letra */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins', sans-serif; 
+}
+
+:root {
+    --disenio-azul: conic-gradient(black 0%,#15297c 25%, #2196f3 50%, #302c9b 75%, black 100%);
+    --color-texto: white;
+    --letra-pequeña: 1rem;
+    --letra-mediana: 1.2rem;
+    --azul-claro:#2196f3;
+    --azul-oscuro:#15297c;
+    --azul-medio:#302c9b ;
+    --blanco-claro:#F9FAFC;
+}
+
+.estilos-nav {
+    background: var(--disenio-azul);
+    width: 100%;
+    font-size: var(--letra-pequeña);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--azul-oscuro);
+    position: fixed;
+    top: 0;
+}
+
+.estilos-nav h1{
+    margin-left: 25px;
+    margin-right: 5px;
+    color: var(--color-texto);
+}
+
+.estilos-nav a{
+    font-size: var(--letra-mediana);
+    text-decoration: none;
+    margin-left: 120px;
+    color: var(--blanco-claro);
+}
+
+.img-nav{
+    width: 120px;
+    height: 120px;
+}
+
+section p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section p span{
+    font-weight: bold;
+}
+
+.img-home{
+    width: 100%;
+    padding-top: 40px;
+}
+
+#informacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+
+#informacion h2{
+    padding-top: 180px;
+    margin-left: 220px;
+    display: flex;
+    text-align: center;
+    color: var(--azul-medio);
+}
+.cont{
+    padding-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px gray;
+    gap: 80px;
+    height: 300px;
+}
+
+.art{
+    width: 40%;
+}
+
+.cont-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#contac{
+    padding: 50px 0;
+    background-color: var(--blanco-claro);
+    text-align: center;
+}
+
+.cont-contacto h2 {
+    margin-bottom: 20px;
+    color: var(--azul-claro);
+}
+
+.cont-contacto p {
+    margin-bottom: 30px;
+    color: var(--azul-claro);
+}
+
+.cont-contacto form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.cont-contacto input,
+.cont-contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--azul-claro);
+    border-radius: 5px;
+}
+
+.cont-contacto button {
+    padding: 10px 20px;
+    background-color: var(--azul-claro);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cont-contacto button:hover {
+    cursor: pointer;
+    background-color: var(--azul-medio); 
+}
+
+#map h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+    color: var(--azul-medio);
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+
+.chat{
+    color: green;
+    font-size: 3.5rem;
+    position: fixed;
+    top: 80%;
+    left: 93%;
+    z-index: 4;
+    text-decoration: none;
+
+}
+
+
+.foot{
+    display: flex;
+    margin-top: 40px;
+}
+
+.foot p{
+   margin-right: auto;
+   margin-left: 40px;
+}
+
+.foot span{
+    color: var(--azul-medio);
+    margin-left: 8px;
+}
+
+.foot a{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(94, 93, 93);
+    font-size: 1.5rem;
+}
