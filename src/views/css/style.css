@@ -20,47 +20,38 @@
     --blanco-claro:#F9FAFC;
 }
 
-.estilos-nav {
-    background: var(--disenio-azul);
-    width: 100%;
-    font-size: var(--letra-pequeña);
-    display: flex;
-    align-items: center;
-    /* border-bottom: 2px solid var(--azul-oscuro); */
+header{
     position: fixed;
-    top: 0;
-}
-
-.estilos-nav h1{
-    margin-left: 25px;
-    margin-right: 5px;
+    width: 100%;
+    /* z-index: 5; */
+    background: var(--disenio-azul);
+    display: flex;
+    font-size: var(--letra-pequeña);
+    justify-content: space-between;
+    text-align: center;
     color: var(--color-texto);
+    padding: 10px 15px;
 }
 
-.estilos-nav a{
-    font-size: var(--letra-mediana);
-    text-decoration: none;
-    margin-left: 120px;
-    color: var(--blanco-claro);
-}
-
-figure{
-    background-color: var(--color-texto);
-}
 .img-nav{
-    width: 120px;
-    height: 110px;
+    width: 110px;
+    height: auto;
+    display: flex;
+    justify-content: start;
 }
 
-section p{
+a{
+    color: var(--color-texto);
+    display: inline;
+}
+
+section{
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    font-size: 1rem;
 }
 
-section p span{
-    font-weight: bold;
-}
 
 .img-home{
     width: 100%;
@@ -102,6 +93,12 @@ section p span{
     padding-top: 100px;
 }
 
+#video{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
 #contac{
     padding: 50px 0;
     background-color: var(--blanco-claro);
@@ -110,12 +107,12 @@ section p span{
 
 .cont-contacto h2 {
     margin-bottom: 20px;
-    color: var(--azul-claro);
+    color: var(--azul-medio);
 }
 
 .cont-contacto p {
     margin-bottom: 30px;
-    color: var(--azul-claro);
+    color: var(--azul-medio);
 }
 
 .cont-contacto form {
@@ -128,13 +125,13 @@ section p span{
 .cont-contacto textarea {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(--azul-claro);
+    border: 1px solid var(--azul-medio);
     border-radius: 5px;
 }
 
 .cont-contacto button {
     padding: 10px 20px;
-    background-color: var(--azul-claro);
+    background-color: var(--azul-medio);
     color: white;
     border: none;
     border-radius: 5px;
@@ -144,7 +141,7 @@ section p span{
 
 .cont-contacto button:hover {
     cursor: pointer;
-    background-color: var(--azul-medio); 
+    background-color: var(--azul-oscuro); 
 }
 
 #map h2{
