@@ -23,6 +23,7 @@
     --blanco-claro:#F9FAFC;
 }
 
+/* estilos nav */
 nav{
     position: fixed;
     width: 100%;
@@ -51,6 +52,10 @@ figure .img-nav{
     margin-right: 20px;
 }
 
+.estilos-nav a:hover{
+    font-size: 1.5rem;
+}
+
 section{
     display: flex;
     justify-content: center;
@@ -63,7 +68,7 @@ section{
     width: 100%;
     padding-top: 40px;
 }
-
+/* estilos informacion */
 #informacion{
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +83,10 @@ section{
     text-align: center;
     color: var(--azul-medio);
 }
+
+#informacion h2:hover{
+    font-size: 2rem;
+}
 .cont{
     padding-top: 40px;
     margin-left: 10px;
@@ -87,6 +96,10 @@ section{
     box-shadow: 10px 15px 12px 8px gray;
     gap: 80px;
     height: 300px;
+}
+.cont:hover{
+    background-color: var(--azul-medio);
+    color: var(--color-texto);
 }
 
 .art{
@@ -105,6 +118,7 @@ section{
     margin: 50px;
 }
 
+/* estilos formulario de contacto */
 #contac{
     padding: 20px 0;
     background-color: var(--blanco-claro);
@@ -164,6 +178,7 @@ section{
     padding-bottom: 30px;
 }
 
+/* estilos boton de chat whatssap */
 .chat{
     color: green;
     font-size: 3.5rem;
@@ -175,7 +190,11 @@ section{
 
 }
 
+.chat:hover{
+    font-size: 4rem;
+}
 
+/* estilos footer */
 .foot{
     display: flex;
     margin-top: 40px;
@@ -196,4 +215,9 @@ section{
     margin: 10px;
     color: rgb(94, 93, 93);
     font-size: 1.5rem;
+}
+
+.foot a:hover{
+    font-size: 2rem;
+    color: var(--azul-medio);
 }
