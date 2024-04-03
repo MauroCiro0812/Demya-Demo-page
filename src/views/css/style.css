@@ -38,7 +38,8 @@ nav{
 }
 
 figure .img-nav{
-    filter: drop-shadow(10px 15px 20px orange);
+    /* filter: drop-shadow(10px 15px 20px orange); */
+    /* box-shadow: 6px 4px 10px 1px var(--blanco-claro); */
     width: 110px;
     height: auto;
     display: flex;
@@ -96,10 +97,12 @@ section{
     box-shadow: 10px 15px 12px 8px gray;
     gap: 80px;
     height: 300px;
+    border-radius: 5px;
 }
 .cont:hover{
     background-color: var(--azul-medio);
     color: var(--color-texto);
+    border-radius: 20px;
 }
 
 .art{
