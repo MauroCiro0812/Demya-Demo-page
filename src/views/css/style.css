@@ -201,16 +201,25 @@ section{
 .foot{
     display: flex;
     margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.329);
 }
 
 .foot p{
    margin-right: auto;
    margin-left: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .foot span{
     color: var(--azul-medio);
     margin-left: 8px;
+}
+
+.foot span:hover{
+    color: var(--azul-claro);
+    font-size: 1.5rem;
 }
 
 .foot a{
