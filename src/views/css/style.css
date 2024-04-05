@@ -53,8 +53,11 @@ figure .img-nav{
     margin-right: 20px;
 }
 
+
 .estilos-nav a:hover{
     font-size: 1.5rem;
+    border-bottom: 2px solid var(--azul-claro);
+    
 }
 
 section{
